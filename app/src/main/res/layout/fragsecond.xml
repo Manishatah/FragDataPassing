@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Semester"
+        android:ems="10"
+        android:id="@+id/editTextSem"
+        android:hint="Sem" />
+
+    <Button
+        android:text="back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btna_frag2" />
+
+    <Button
+        android:text="next"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnb_frag2" />
+</LinearLayout>
